@@ -1,4 +1,3 @@
-// Skills Section Logo's
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
@@ -20,17 +19,11 @@ import vscodeLogo from './assets/tech_logo/vscode.png';
 import mcLogo from './assets/tech_logo/mc.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
-
-// Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
+import noticeBoardLogo from './assets/company_logo/noticeBoard.png';
 import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
-
-// Education Section Logo's
 import kietLogo from './assets/education_logo/kiet_c.webp';
 import lpsLogo from './assets/education_logo/lps.webp';
-
-// Project Section Logo's
 import MegaBlog from './assets/work_logo/megaBlog.png';
 import community_notice from './assets/work_logo/community_notice.png';
 import curr_conv from './assets/work_logo/curr_conv.png';
@@ -41,6 +34,30 @@ import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import cloudPractitionerLogo from './assets/certification/cloudPractitioner.png';
+import mlFoundationsLogo from './assets/certification/machineLearning.png';
+
+
+export const certifications = [
+  {
+    id: 0,
+    title: 'AWS Academy Graduate - Machine Learning Foundations - Training Badge',
+    img: mlFoundationsLogo,
+    issuer: 'Amazon Web Services Training and Certification',
+    date: 'November 2025',
+    desc: 'AWS Academy Graduate – Machine Learning Foundations (Training Badge) is a digital badge issued by AWS to learners who complete the AWS Academy Machine Learning Foundations course. It shows that you’ve finished this introductory AWS-led machine-learning training and gained foundational knowledge of ML and related AWS services.',
+    link: 'https://www.credly.com/badges/ba26af8b-afc6-43ff-9404-280c51ba43b5/public_url',
+  },
+  {
+    id: 1,
+    title: 'AWS Certified Cloud Practitioner',
+    img: cloudPractitionerLogo,
+    issuer: 'Amazon Web Services Training and Certification',
+    date: 'December 2025',
+    desc: 'The AWS Certified Cloud Practitioner teaches the fundamentals of cloud computing and AWS. You learn what cloud computing is, how AWS works, and the purpose of core services like EC2, S3, RDS, and Lambda. It also covers basic security concepts, the AWS Shared Responsibility Model, and how AWS pricing, billing, and cost management work, helping you understand when and why to use different AWS services.',
+    link: 'https://www.credly.com/badges/7d48f631-65b4-4ff5-bc05-7255848dcae8/public_url',
+  },
+];
 
 
 export const SkillsInfo = [
@@ -88,61 +105,59 @@ export const SkillsInfo = [
   },
 ];
 
-  // export const experiences = [
-  //   {
-  //     id: 0,
-  //     img: webverseLogo,
-  //     role: "Fullstack Developer",
-  //     company: "Webverse Digital",
-  //     date: "April 2024 - Present",
-  //     desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-  //     skills: [
-  //       "HTML",
-  //       "CSS",
-  //       "JavaScript",
-  //       "React JS",
-  //       "TypeScript",
-  //       "Node JS",
-  //       "Tailwind CSS",
-  //       "MongoDb",
-  //       "Redux",
-  //       " Next Js",
-  //     ],
-  //   },
-  //   {
-  //     id: 1,
-  //     img: agcLogo,
-  //     role: "Fullstack Engineer",
-  //     company: "Agumentik Group of Companies",
-  //     date: "July 2023 - March 2024",
-  //     desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-  //     skills: [
-  //       "ReactJS",
-  //       "Redux",
-  //       "JavaScript",
-  //       "Tailwind CSS",
-  //       "HTML",
-  //       "CSS",
-  //       "SQL",
-  //     ],
-  //   },
-  //   {
-  //     id: 2,
-  //     img: newtonschoolLogo,
-  //     role: "Frontend Intern",
-  //     company: "Newton School",
-  //     date: "September 2021 - August 2022",
-  //     desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-  //     skills: [
-  //       "HTML",
-  //       "CSS",
-  //       "Javascript",
-  //       "Bootstrap",
-  //       "Figma",
-  //       "Material UI",
-  //     ],
-  //   },
-  // ];
+export const experiences = [
+    {
+      id: 0,
+      img: noticeBoardLogo,
+      role: "Fullstack Developer",
+      company: "Neelgiri Enclave Welfare Society.",
+      date: "June 2025 - August 2025",
+      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+      skills: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React JS",
+        "Node JS",
+        "Tailwind CSS",
+        "MongoDb",
+        " Next Js",
+      ],
+    },
+    // {
+    //   id: 1,
+    //   img: agcLogo,
+    //   role: "Fullstack Engineer",
+    //   company: "Agumentik Group of Companies",
+    //   date: "July 2023 - March 2024",
+    //   desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+    //   skills: [
+    //     "ReactJS",
+    //     "Redux",
+    //     "JavaScript",
+    //     "Tailwind CSS",
+    //     "HTML",
+    //     "CSS",
+    //     "SQL",
+    //   ],
+    // },
+    //{
+    //   id: 2,
+    //   img: newtonschoolLogo,
+    //   role: "Frontend Intern",
+    //   company: "Newton School",
+    //   date: "September 2021 - August 2022",
+    //   desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+    //   skills: [
+    //     "HTML",
+    //     "CSS",
+    //     "Javascript",
+    //     "Bootstrap",
+    //     "Figma",
+    //     "Material UI",
+    //   ],
+    // },
+  ];
   
   export const education = [
     {
@@ -191,80 +206,8 @@ export const SkillsInfo = [
       description:
             "This app is a Digital Notice Board for a local community or residential society.It provides a centralized online platform where important information can be shared efficiently.What it does:Enables admins to post announcements and updates Displays local events and notices in one place Supports buy/sell/rent posts (non-commercial) Shows important contact information Accessible on both mobile and desktop.",
       image: community_notice,
-      // image: community_notice,
       tags: ["React JS", "HTML", "CSS", "JavaScript","Express JS","Node JS","MongoDB"],
       github: "https://github.com/UtkarshPandey04/Community-Notice-Board-Website",
       webapp: "https://shadcn-ui-ivory-five.vercel.app/",
     },
-  //   {
-  //     id: 2,
-  //     title: "Movie Recommendation App",
-  //     description:
-  //       "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-  //     image: movierecLogo,
-  //     tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-  //     github: "https://github.com/codingmastr/Movie-Recommendation-App",
-  //     webapp: "https://movie-recommendation-app-jet.vercel.app/",
-  //   },
-  //   {
-  //     id: 3,
-  //     title: "Email Validator NPM Package",
-  //     description:
-  //       "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-  //     image: npmLogo,
-  //     tags: ["React JS", "Node.js", "NPM", "Validation"],
-  //     github: "https://github.com/codingmastr/cmtk-email-validator",
-  //     webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-  //   },
-  //   {
-  //     id: 4,
-  //     title: "Task Reminder Chrome Extension Tool",
-  //     description:
-  //       "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-  //     image: taskremLogo,
-  //     tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-  //     github: "https://github.com/codingmastr/Task-Reminder-Tool",
-  //     webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-  //   },
-  //   {
-  //     id: 5,
-  //     title: "Webverse Digital",
-  //     description:
-  //       "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-  //     image: webverLogo,
-  //     tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-  //     github: "https://github.com/codingmastr/Webverse-Digital",
-  //     webapp: "https://webversedigital.com/",
-  //   },
-  //   {
-  //     id: 6,
-  //     title: "Coding Master",
-  //     description:
-  //       "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-  //     image: cmLogo,
-  //     tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-  //     github: "https://codingmasterweb.in/",
-  //     webapp: "https://codingmasterweb.in/",
-  //   },
-  //   {
-  //     id: 7,
-  //     title: "Image Search App",
-  //     description:
-  //       "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-  //     image: imagesearchLogo,
-  //     tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-  //     github: "https://github.com/codingmastr/Image-Search-App",
-  //     webapp: "https://imagsearch.netlify.app/",
-  //   },
-  //   {
-  //     id: 8,
-  //     title: "Image Background Remover",
-  //     description:
-  //       "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-  //     image: removebgLogo,
-  //     tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-  //     github: "https://github.com/codingmastr/Image-Background-Remover",
-  //     webapp: "https://removeyourbg.netlify.app/",
-  //   },
    ];
-  

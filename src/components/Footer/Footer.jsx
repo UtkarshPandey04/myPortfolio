@@ -5,12 +5,10 @@ const Footer = () => {
   return (
     <footer className="text-white py-6 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 border-t border-gray-800">
       <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center text-center sm:text-left">
-        {/* Copyright Text */}
         <p className="text-sm text-gray-400 mb-4 sm:mb-0">
-          © 2025 Utkarsh Pandey. All rights reserved.
+          © 2026 Utkarsh Pandey. All rights reserved.
         </p>
 
-        {/* Social Media Icons */}
         <div className="flex justify-center space-x-6">
           <a
             href="https://twitter.com/up_precocive"

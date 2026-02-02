@@ -21,7 +21,6 @@ const Contact = () => {
       .then(
         () => {
           setIsLoading(false);
-          form.current.reset(); // Reset form fields after sending
           toast.success("Message sent successfully! ✅", {
             position: "top-right",
             autoClose: 3000,
@@ -34,7 +33,6 @@ const Contact = () => {
         },
         (error) => {
           setIsLoading(false);
-          console.error("Error sending message:", error);
           toast.error("Failed to send message. Please try again.", {
             position: "top-right",
             autoClose: 3000,
@@ -53,10 +51,8 @@ const Contact = () => {
       id="contact"
       className="py-16 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 font-sans"
     >
-      {/* Toast Container */}
       <ToastContainer />
 
-      {/* Section Title */}
       <div className="text-center mb-12">
         <h2 className="text-3xl sm:text-4xl font-bold text-white">CONTACT</h2>
         <div className="w-24 h-1 bg-[#8245ec] mx-auto mt-2"></div>
@@ -65,7 +61,6 @@ const Contact = () => {
         </p>
       </div>
 
-      {/* Contact Form */}
       <div className="w-full max-w-lg mx-auto bg-gray-900 bg-opacity-50 backdrop-blur-md p-6 sm:p-8 rounded-2xl shadow-lg border border-gray-700">
         <h3 className="text-xl sm:text-2xl font-semibold text-white text-center mb-6">
           Send me a Message 🚀
@@ -117,7 +112,6 @@ const Contact = () => {
             />
           </div>
           
-          {/* Send Button */}
           <button
             type="submit"
             disabled={isLoading}

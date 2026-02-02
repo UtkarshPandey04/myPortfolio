@@ -1,5 +1,5 @@
 import React from "react";
-import { education } from "../../constants"; // Import the education data
+import { education } from "../../constants";
 
 const Education = () => {
   return (
@@ -7,7 +7,6 @@ const Education = () => {
       id="education"
       className="py-16 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 font-sans"
     >
-      {/* Section Title */}
       <div className="text-center mb-12">
         <h2 className="text-3xl sm:text-4xl font-bold text-white">EDUCATION</h2>
         <div className="w-24 h-1 bg-[#8245ec] mx-auto mt-2"></div>
@@ -16,19 +15,15 @@ const Education = () => {
         </p>
       </div>
 
-      {/* Education Timeline */}
       <div className="relative">
-        {/* Vertical line - hidden on small screens */}
         <div className="hidden sm:block absolute left-1/2 transform -translate-x-1/2 w-0.5 bg-gray-600 h-full"></div>
 
-        {/* Education Entries */}
         <div className="space-y-12 sm:space-y-0">
           {education.map((edu, index) => (
             <div
               key={edu.id}
               className="flex flex-col sm:flex-row items-center sm:items-start"
             >
-              {/* Timeline Point and Logo */}
               <div
                 className={`flex-shrink-0 w-full sm:w-1/2 flex ${
                   index % 2 === 0 ? "sm:justify-start" : "sm:justify-end"
@@ -39,10 +34,8 @@ const Education = () => {
                 </div>
               </div>
 
-              {/* Spacer for small screens */}
               <div className="w-full sm:w-1/2 sm:pr-8 sm:pl-8"></div>
 
-              {/* Card - positioned based on index */}
               <div
                 className={`w-full sm:w-1/2 mt-6 sm:mt-0 ${
                   index % 2 === 0 ? "sm:ml-0" : "sm:-ml-[100%]"

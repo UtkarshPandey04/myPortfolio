@@ -18,7 +18,6 @@ const Work = () => {
       id="work"
       className="py-16 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 font-sans"
     >
-      {/* Section Title */}
       <div className="text-center mb-12">
         <h2 className="text-3xl sm:text-4xl font-bold text-white">PROJECTS</h2>
         <div className="w-24 h-1 bg-[#8245ec] mx-auto mt-2"></div>
@@ -27,7 +26,6 @@ const Work = () => {
         </p>
       </div>
 
-      {/* Projects Grid */}
       <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <div
@@ -67,7 +65,6 @@ const Work = () => {
         ))}
       </div>
 
-      {/* Modal Container */}
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80 p-4">
           <div className="bg-gray-900 rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto relative border border-gray-700">
