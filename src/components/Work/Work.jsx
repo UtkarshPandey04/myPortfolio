@@ -80,7 +80,7 @@ const Work = () => {
             <div className="flex flex-col">
               <div className="w-full flex justify-center bg-gray-900 px-4">
                 <img
-                  src={commnity_notice}
+                  src={selectedProject.image}
                   alt={selectedProject.title}
                   className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
                 />

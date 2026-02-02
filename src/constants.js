@@ -20,6 +20,7 @@ import vscodeLogo from './assets/tech_logo/vscode.png';
 import mcLogo from './assets/tech_logo/mc.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
+import community_notice from './assets/work_logo/community_notice.png';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -190,6 +191,7 @@ export const SkillsInfo = [
       description:
             "This app is a Digital Notice Board for a local community or residential society.It provides a centralized online platform where important information can be shared efficiently.What it does:Enables admins to post announcements and updates Displays local events and notices in one place Supports buy/sell/rent posts (non-commercial) Shows important contact information Accessible on both mobile and desktop.",
       image: community_notice,
+      // image: community_notice,
       // image: community_notice,
       tags: ["React JS", "HTML", "CSS", "JavaScript","Express JS","Node JS","MongoDB"],
       github: "https://github.com/UtkarshPandey04/Community-Notice-Board-Website",
