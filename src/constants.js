@@ -186,13 +186,13 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      title: "Currency Converter",
+      title: "Community Notice Board Website",
       description:
-        "A simple and efficient currency converter built with React.js. It allows users to convert amounts between different currencies using real-time exchange rates.",
-      image: curr_conv,
-      tags: ["React JS", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "file:///C:/Users/Utkarsh/OneDrive/Desktop/webD/Currency_converter/index.html",
+            "This app is a Digital Notice Board for a local community or residential society.It provides a centralized online platform where important information can be shared efficiently.What it does:Enables admins to post announcements and updates Displays local events and notices in one place Supports buy/sell/rent posts (non-commercial) Shows important contact information Accessible on both mobile and desktop.",
+      image: community_notice,
+      tags: ["React JS", "HTML", "CSS", "JavaScript","Express JS","Node JS","MongoDB"],
+      github: "https://github.com/UtkarshPandey04/Community-Notice-Board-Website",
+      webapp: "https://shadcn-ui-ivory-five.vercel.app/",
     },
   //   {
   //     id: 2,
