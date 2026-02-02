@@ -189,7 +189,8 @@ export const SkillsInfo = [
       title: "Community Notice Board Website",
       description:
             "This app is a Digital Notice Board for a local community or residential society.It provides a centralized online platform where important information can be shared efficiently.What it does:Enables admins to post announcements and updates Displays local events and notices in one place Supports buy/sell/rent posts (non-commercial) Shows important contact information Accessible on both mobile and desktop.",
-      image: community_notice,
+      image:community_notice,
+      // image: community_notice,
       tags: ["React JS", "HTML", "CSS", "JavaScript","Express JS","Node JS","MongoDB"],
       github: "https://github.com/UtkarshPandey04/Community-Notice-Board-Website",
       webapp: "https://shadcn-ui-ivory-five.vercel.app/",
