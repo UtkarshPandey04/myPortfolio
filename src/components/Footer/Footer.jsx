@@ -1,65 +1,42 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
-  // Smooth scroll function
-  const handleScroll = (sectionId) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
-    <footer className="text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw]">
-      <div className="container mx-auto text-center">
-        {/* Name / Logo */}
-        <h2 className="text-xl font-semibold text-purple-500">Utkarsh Pandey</h2>
-
-        {/* Navigation Links - Responsive */}
-        <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
-          {[
-            { name: "About", id: "about" },
-            { name: "Skills", id: "skills" },
-            { name: "Experience", id: "experience" },
-            { name: "Projects", id: "projects" },
-            { name: "Education", id: "education" },
-          ].map((item, index) => (
-            <button
-              key={index}
-              onClick={() => handleScroll(item.id)}
-              className="hover:text-purple-500 text-sm sm:text-base my-1"
-            >
-              {item.name}
-            </button>
-          ))}
-        </nav>
-
-        {/* Social Media Icons - Responsive */}
-        <div className="flex flex-wrap justify-center space-x-4 mt-6">
-          {[
-            { icon: <FaTwitter />, link: "https://twitter.com/up_precocive" },
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/utkarshpandey04" },
-            { icon: <FaInstagram />, link: "https://www.instagram.com/___well_who_am_i/" },
-            
-            
-          ].map((item, index) => (
-            <a
-              key={index}
-              href={item.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xl hover:text-purple-500 transition-transform transform hover:scale-110"
-            >
-              {item.icon}
-            </a>
-          ))}
-        </div>
-
+    <footer className="text-white py-6 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 border-t border-gray-800">
+      <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center text-center sm:text-left">
         {/* Copyright Text */}
-        <p className="text-sm text-gray-400 mt-6">
+        <p className="text-sm text-gray-400 mb-4 sm:mb-0">
           © 2025 Utkarsh Pandey. All rights reserved.
         </p>
+
+        {/* Social Media Icons */}
+        <div className="flex justify-center space-x-6">
+          <a
+            href="https://twitter.com/up_precocive"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-purple-500 transition-transform transform hover:scale-110"
+          >
+            <FaTwitter size={20} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/utkarshpandey04"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-purple-500 transition-transform transform hover:scale-110"
+          >
+            <FaLinkedin size={20} />
+          </a>
+          <a
+            href="https://www.instagram.com/___well_who_am_i/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-purple-500 transition-transform transform hover:scale-110"
+          >
+            <FaInstagram size={20} />
+          </a>
+        </div>
       </div>
     </footer>
   );
