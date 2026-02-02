@@ -48,7 +48,7 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="#" // Replace with your resume link
+            href="https://drive.google.com/file/d/1OqfbzALyqz2fUyWbTWBznP7KniVHiDCG/view" // Replace with your resume link
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-2 px-6 sm:py-3 sm:px-8 rounded-full text-base sm:text-lg font-bold transition duration-300 transform hover:scale-105"
