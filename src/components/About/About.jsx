@@ -42,7 +42,7 @@ const About = () => {
             efficient solutions.
           </p>
           <a
-            href="https://drive.google.com/file/d/1OqfbzALyqz2fUyWbTWBznP7KniVHiDCG/view"
+            href="https://drive.google.com/file/d/17idoumK1bfXtUPLbJ5AsXFNAoKo1fXXl/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-2 px-6 sm:py-3 sm:px-8 rounded-full text-base sm:text-lg font-bold transition duration-300 transform hover:scale-105"

@@ -163,10 +163,10 @@ export const experiences = [
     {
       id: 0,
       img: kietLogo,
-      school: "KIET Group of Institutions, Ghaziabad",
+      school: "KIET Deemed To Be University, Ghaziabad",
       date: "Sept 2024 - July 2028",
-      grade: "8.34 CGPA",
-      desc: "I am persuing B.Tech in Computer Science & Engineering(Artificial Intelligence & Machine Learning) from KIET Group of Institutions, Ghaziabad. At KIET, I am building a strong foundation in programming, software development, and computer science principles. I am studying courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at KIET has been instrumental in shaping my technical abilities and professional growth.",
+      grade: "8.11 CGPA",
+      desc: "I am persuing B.Tech in Computer Science & Engineering(Artificial Intelligence & Machine Learning) from KIET Deemed To Be University, Ghaziabad. At KIET, I am building a strong foundation in programming, software development, and computer science principles. I am studying courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at KIET has been instrumental in shaping my technical abilities and professional growth.",
       degree: "Bachelor of Technology - B.Tech",
     },
     {
