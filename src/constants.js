@@ -37,6 +37,8 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
 import cloudPractitionerLogo from './assets/certification/cloudPractitioner.png';
 import mlFoundationsLogo from './assets/certification/machineLearning.png';
 
+import reuseHubLogo from './assets/work_logo/reusehub.png';
+
 
 export const certifications = [
   {
@@ -196,9 +198,9 @@ export const experiences = [
       description:
         "A blogging platform built with React.js that allows users to create, edit, and share their blog posts. It features a clean and modern design, with a focus on user experience and performance.",
       image: MegaBlog,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/UtkarshPandey04/megaBlogProject",
-      webapp: "https://mega-blog-project-rose.vercel.app/",
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "API","Node JS","Express JS","MongoDB","Cloudinary"],
+      github: "https://github.com/UtkarshPandey04/megaBlog",
+      webapp: "https://mega-blog-three-eta.vercel.app/",
     },
     {
       id: 1,
@@ -209,5 +211,15 @@ export const experiences = [
       tags: ["React JS", "HTML", "CSS", "JavaScript","Express JS","Node JS","MongoDB"],
       github: "https://github.com/UtkarshPandey04/Community-Notice-Board-Website",
       webapp: "https://shadcn-ui-ivory-five.vercel.app/",
+    },
+    {
+      id: 2,
+      title: "ReuseHub",
+      description:
+        "ReuseHub is a web-based platform designed to promote sustainability by enabling users to donate, exchange, and reuse items instead of discarding them. The goal is to reduce waste and encourage a circular economy mindset within communities. Users can create profiles, list items they wish to donate or exchange, and browse available items in their area. The platform facilitates communication between users, allowing them to arrange for item pickup or exchange. ReuseHub aims to foster a sense of community while contributing to environmental conservation efforts.",
+      image: reuseHubLogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "API","Node JS","Express JS","vercel","AI Integration"],
+      github: "https://github.com/UtkarshPandey04/Reuse-hub-innotech",
+      webapp: "https://v0-reuse-hub-web-application.vercel.app/",
     },
    ];
