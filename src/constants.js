@@ -37,7 +37,7 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
 import cloudPractitionerLogo from './assets/certification/cloudPractitioner.png';
 import mlFoundationsLogo from './assets/certification/machineLearning.png';
 
-import reuseHubLogo from './assets/work_logo/reuseHub.png';
+import reuseHubLogo from './assets/work_logo/ReuseHub.png';
 
 
 export const certifications = [
