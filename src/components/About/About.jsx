@@ -23,7 +23,7 @@ const About = () => {
               strings={[
                 'Fullstack Developer',
                 'App Developer',
-                'UI/UX Designer',
+                'Data Engineer',
                 'Coder',
               ]}
               typeSpeed={100}
