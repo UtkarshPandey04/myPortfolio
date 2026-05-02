@@ -36,6 +36,8 @@ import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 import cloudPractitionerLogo from './assets/certification/cloudPractitioner.png';
 import mlFoundationsLogo from './assets/certification/machineLearning.png';
+import solutionsArchitectLogo from './assets/certification/aws-certified-solutions-architect-associate.png';
+import dataEngineerLogo from './assets/certification/aws-certified-data-engineer-associate.png';
 
 import reuseHubLogo from './assets/work_logo/ReuseHub.png';
 
@@ -58,6 +60,24 @@ export const certifications = [
     date: 'December 2025',
     desc: 'The AWS Certified Cloud Practitioner teaches the fundamentals of cloud computing and AWS. You learn what cloud computing is, how AWS works, and the purpose of core services like EC2, S3, RDS, and Lambda. It also covers basic security concepts, the AWS Shared Responsibility Model, and how AWS pricing, billing, and cost management work, helping you understand when and why to use different AWS services.',
     link: 'https://www.credly.com/badges/7d48f631-65b4-4ff5-bc05-7255848dcae8/public_url',
+  },
+  {
+    id: 2,
+    title: 'AWS Certified Solutions Architect – Associate',
+    img: solutionsArchitectLogo,
+    issuer: 'Amazon Web Services Training and Certification',
+    date: 'May 2026',
+    desc: 'The AWS Certified Solutions Architect – Associate certification validates expertise in designing distributed systems on AWS. It covers designing resilient architectures, selecting appropriate AWS services, estimating AWS costs, and understanding AWS security, reliability, performance efficiency, and operational excellence best practices.',
+    link: 'https://www.credly.com/badges/e222d5a6-4e4f-45a0-89e2-8070ca2ccb63/public_url',
+  },
+  {
+    id: 3,
+    title: 'AWS Certified Data Engineer – Associate',
+    img: dataEngineerLogo,
+    issuer: 'Amazon Web Services Training and Certification',
+    date: 'April 2026',
+    desc: 'The AWS Certified Data Engineer – Associate certification validates expertise in implementing and managing data pipelines on AWS. It covers designing data processing solutions, implementing data integrations, managing data quality, and optimizing data storage and retrieval using AWS services like Glue, Lambda, and data analytics tools.',
+    link: 'https://www.credly.com/badges/0353ef24-5ab6-463b-bb90-2245d16daed9/public_url',
   },
 ];
 
