@@ -47,7 +47,7 @@ const Experience = () => {
                     <img
                       src={experience.img}
                       alt={experience.company}
-                      className="w-16 h-16 object-cover rounded-lg border-2 border-gray-700"
+                      className="w-16 h-16 object-contain rounded-lg border-2 border-gray-700 bg-gray-800/60 p-1"
                     />
                     <div className="flex-1">
                       <h3 className="text-lg sm:text-xl font-semibold text-white">
@@ -60,20 +60,48 @@ const Experience = () => {
                     </div>
                   </div>
 
-                  <p className="mt-4 text-sm text-gray-400">{experience.desc}</p>
+                  <p className="mt-4 text-sm text-gray-400 leading-relaxed">{experience.desc}</p>
                   <div className="mt-4">
                     <h5 className="font-medium text-white">Skills:</h5>
                     <ul className="flex flex-wrap mt-2">
                       {experience.skills.map((skill, index) => (
                         <li
                           key={index}
-                          className="bg-[#8245ec] text-gray-300 px-4 py-1 text-xs sm:text-sm rounded-lg mr-2 mb-2 border border-gray-400"
+                          className="bg-[#8245ec] text-gray-200 px-3 py-1 text-xs font-medium rounded-lg mr-2 mb-2 border border-purple-400/30"
                         >
                           {skill}
                         </li>
                       ))}
                     </ul>
                   </div>
+
+                  {experience.link && (
+                    <div className="mt-4 pt-2 border-t border-gray-800">
+                      <a
+                        href={experience.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-purple-300 hover:text-white transition-all duration-200 bg-purple-900/40 hover:bg-purple-800/60 border border-purple-500/40 hover:border-purple-400 px-3.5 py-2 rounded-lg shadow-sm"
+                      >
+                        <span>View Project Documentation / Report</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="14"
+                          height="14"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="w-3.5 h-3.5"
+                        >
+                          <path d="M7 7h10v10"></path>
+                          <path d="M7 17 17 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

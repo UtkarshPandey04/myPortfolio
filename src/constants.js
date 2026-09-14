@@ -38,8 +38,11 @@ import cloudPractitionerLogo from './assets/certification/cloudPractitioner.png'
 import mlFoundationsLogo from './assets/certification/machineLearning.png';
 import solutionsArchitectLogo from './assets/certification/aws-certified-solutions-architect-associate.png';
 import dataEngineerLogo from './assets/certification/aws-certified-data-engineer-associate.png';
+import domoLogo from './assets/company_logo/domo_logo.png';
 
 import reuseHubLogo from './assets/work_logo/ReuseHub.png';
+import aerosenseLogo from './assets/work_logo/aerosense.png';
+import grolixLogo from './assets/work_logo/grolix.png';
 
 
 export const certifications = [
@@ -130,6 +133,29 @@ export const SkillsInfo = [
 export const experiences = [
     {
       id: 0,
+      img: domoLogo,
+      role: "Business Intelligence & Data Analytics Intern",
+      company: "US-Based Client Project",
+      date: "June 2026 - August 2026",
+      desc: "Worked on an end-to-end Business Intelligence and Data Analytics project for a US-based client using Domo, where I transformed raw marketing and performance data through ETL, data cleaning, deduplication, missing-value handling, data-type correction, standardization, and calculated fields. Developed business logic for KPIs, rankings, Top-N analysis, monthly and brand-level performance, and built interactive dashboards and Domo Apps with filters, slicers, and visualizations. The work involved translating business requirements into actionable dashboards for analyzing lead/MQL, source, platform, brand, and target-vs-achievement performance, providing stakeholders with a consolidated view for data-driven decision-making.",
+      skills: [
+        "Domo",
+        "Domo ETL",
+        "Domo DataFlows",
+        "SQL",
+        "Beast Mode Calculated Fields",
+        "Data Visualization",
+        "Business Intelligence (BI)",
+        "Data Cleaning & Transformation",
+        "KPI Analytics",
+        "Dashboard Development",
+        "Data Modeling",
+        "Interactive Filters & Slicers",
+      ],
+      link: "https://drive.google.com/file/d/1u_4FPkdS0Vn2Y6dMFCvYu_IIYTeSF_Fq/view",
+    },
+    {
+      id: 1,
       img: noticeBoardLogo,
       role: "Fullstack Developer",
       company: "Neelgiri Enclave Welfare Society.",
@@ -214,23 +240,42 @@ export const experiences = [
   export const projects = [
     {
       id: 0,
-      title: "MegaBlog",
+      title: "AeroSense — Physics-Guided Atmospheric & Air Quality Intelligence",
       description:
-        "A blogging platform built with React.js that allows users to create, edit, and share their blog posts. It features a clean and modern design, with a focus on user experience and performance.",
-      image: MegaBlog,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API","Node JS","Express JS","MongoDB","Cloudinary"],
-      github: "https://github.com/UtkarshPandey04/megaBlog",
-      webapp: "https://mega-blog-three-eta.vercel.app/",
+        "A research-grade coupled atmospheric and air pollution forecasting system for Delhi NCR predicting air quality up to 72 hours ahead. AeroSense couples ground telemetry (CPCB CAAQMS), meteorology (IMD), and active satellite fire tracking (NASA FIRMS) using Spatio-Temporal Graph Neural Networks (GNN-Transformer) with WRF-Chem chemistry residual blending. Features an automated Atmospheric Regime Engine (detecting thermal inversion & stagnation risks), ranked physical driver explainability & attribution, and an interactive What-If Decision Support Lab for testing counterfactual policy interventions.",
+      image: aerosenseLogo,
+      tags: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Python",
+        "Graph Neural Networks",
+        "WRF-Chem",
+        "Machine Learning",
+        "Data Fusion",
+      ],
+      github: "https://github.com/UtkarshPandey04/my-forecasting-project",
+      webapp: "https://my-forecasting-project.vercel.app/",
     },
     {
       id: 1,
-      title: "Community Notice Board Website",
+      title: "Grolix Media — Influencer Marketing Agency Platform",
       description:
-            "This app is a Digital Notice Board for a local community or residential society.It provides a centralized online platform where important information can be shared efficiently.What it does:Enables admins to post announcements and updates Displays local events and notices in one place Supports buy/sell/rent posts (non-commercial) Shows important contact information Accessible on both mobile and desktop.",
-      image: community_notice,
-      tags: ["React JS", "HTML", "CSS", "JavaScript","Express JS","Node JS","MongoDB"],
-      github: "https://github.com/UtkarshPandey04/Community-Notice-Board-Website",
-      webapp: "https://shadcn-ui-ivory-five.vercel.app/",
+        "A high-converting, full-stack digital influencer marketing agency platform engineered to scale ambitious brands through data-backed creator campaigns. Connects brands with a network of 8,000+ verified creators, featuring automated UGC/Reels campaign workflows, talent curation, algorithmic publishing windows, transparent real-time ROI and ROAS analytics dashboards, an interactive strategy consultation booking system, and an administrative portal.",
+      image: grolixLogo,
+      tags: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Influencer Marketing",
+        "Campaign Analytics",
+        "UI/UX Design",
+        "Performance Marketing",
+      ],
+      github: "https://github.com/UtkarshPandey04",
+      webapp: "https://grolix-media.vercel.app/",
     },
     {
       id: 2,
@@ -241,5 +286,25 @@ export const experiences = [
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API","Node JS","Express JS","vercel","AI Integration"],
       github: "https://github.com/UtkarshPandey04/Reuse-hub-innotech",
       webapp: "https://v0-reuse-hub-web-application.vercel.app/",
+    },
+    {
+      id: 3,
+      title: "MegaBlog",
+      description:
+        "A blogging platform built with React.js that allows users to create, edit, and share their blog posts. It features a clean and modern design, with a focus on user experience and performance.",
+      image: MegaBlog,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "API","Node JS","Express JS","MongoDB","Cloudinary"],
+      github: "https://github.com/UtkarshPandey04/megaBlog",
+      webapp: "https://mega-blog-three-eta.vercel.app/",
+    },
+    {
+      id: 4,
+      title: "Community Notice Board Website",
+      description:
+        "This app is a Digital Notice Board for a local community or residential society. It provides a centralized online platform where important information can be shared efficiently. What it does: Enables admins to post announcements and updates, displays local events and notices in one place, supports buy/sell/rent posts (non-commercial), and shows important contact information. Accessible on both mobile and desktop.",
+      image: community_notice,
+      tags: ["React JS", "HTML", "CSS", "JavaScript","Express JS","Node JS","MongoDB"],
+      github: "https://github.com/UtkarshPandey04/Community-Notice-Board-Website",
+      webapp: "https://shadcn-ui-ivory-five.vercel.app/",
     },
    ];
